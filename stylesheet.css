@@ -1,0 +1,121 @@
+body {
+  background-image: url("https://media.istockphoto.com/photos/friends-on-campus-picture-id1136187224?k=6&m=1136187224&s=612x612&w=0&h=AnUAykxqSQq8KQmW2l5jWw2kqMiGe5fPNGAmOHShP1Y=");
+  width: 100%;
+}
+
+#survey-form {
+  background-color: #000080;
+  color: white;
+  font-family: Calibri;
+  margin: 0 auto;
+  width: 54%;
+  padding: 1em;
+  border-radius: 0.4em;
+  display: grid;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-family: calibri;
+  text-align: center;
+  text-transform: capitalize;
+  color: black;
+  margin-top: 54px;
+  margin-bottom: 18px;
+  line-height: 0.4px;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 27px;
+  color: black;
+  margin-top: -1px;
+  background-color: lightgray;
+}
+
+input[type="text"],
+select {
+  width: 63%;
+  padding: 0.9%;
+  display: inline-block;
+  margin-left: 172px;
+  margin-bottom: 9px;
+}
+
+#email {
+  width: 63%;
+  padding: 0.9%;
+  display: inline-block;
+  margin-left: 172px;
+  margin-bottom: 9px;
+}
+
+label {
+  font-size: 20px;
+  margin-left: 170px;
+  margin-bottom: 13px;
+}
+
+#number {
+  width: 63%;
+  padding: 0.9%;
+  display: inline-block;
+  margin-left: 172px;
+  margin-bottom: 9px;
+}
+
+fieldset {
+  width: 63%;
+  padding: 0.9%;
+  font-size: 20px;
+  margin-left: 170px;
+  margin-bottom: 13px;
+}
+
+input[type="checkbox"] {
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+}
+
+input[type="text"] {
+  height: 2em;
+}
+
+input[type="radio"] {
+  margin-left: 9px;
+}
+input[type="radio"] + label {
+  margin-left: 10px;
+}
+input[type="radio"] + label:after {
+  content: '';
+  display: block;
+  /* Below code(border: 1px solid red;) is just for illustration, remove if necessary */
+  border: 1px solid red;
+}
+
+#message {
+  margin-top: 4px;
+  margin-left: 168px;
+  margin-bottom: 9px;
+  width: 63%;
+}
+
+input[type="submit"] {
+  margin: 0 auto;
+  width: 62.5%;
+  height: 30px;
+  color: #fff;
+  background-color: green;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  display: block;
+}
+
+input[type="submit"]:hover {
+  background-color: #202931;
+}
